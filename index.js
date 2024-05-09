@@ -73,8 +73,8 @@ function updateStatusAndSendMessages() {
   const nextStatus = statusMessages[(currentIndex + 1) % statusMessages.length];
 
   client.user.setPresence({
-    activities: [{ name: Kaioshin Dev🔥, type: ActivityType.Playing}],
-    status: 'idle',
+    activities: [{ name: currentStatus, type: ActivityType.Custom}],
+    status: 'dnd',
   });
 
   
