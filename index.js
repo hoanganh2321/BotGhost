@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Make by Kaioshin 🔥","https://discord.gg/XBHZUwqAzK"];
+const statusMessages = ["Make by Kaioshin 🔥","discord.gg/XBHZUwqAzK"];
 
 
 let currentIndex = 0;
